@@ -11,10 +11,10 @@ if __name__ == '__main__':
         for _ in range(4):
             # every 4 reserves from 1006
             newlist.append(start)
-            start += 4
+            start += 12
         print(newlist)
 
 """
-Results: [1006, 1010, 1014, 1018] ... [2398, 2402, 2406, 2410]
-We can see from this that my CL2410 has just completed a "box" of 4 Collector's Reserves.
+Results: [1006, 1018, 1030, 1042] ... [2398, 2410, 2422, 2434]
+We can see from this that my CL2410 is 2 "packs" into a "box" of 4 Collector's Reserves.
 """
