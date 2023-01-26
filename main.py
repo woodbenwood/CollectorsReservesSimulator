@@ -4,14 +4,15 @@
 if __name__ == '__main__':
     start = 1006
     # the collection level (CL1006) where reserves begin
-    while start < 2471:
-        # my collection is currently CL 2470
+    while start < 2543:
+        # my collection is currently CL 2542
         newlist = []
         # instantiate a new list to replace the last one
         for _ in range(4):
             # every 4 reserves from 1006
             newlist.append(start)
             start += 12
+            # a reserve (box) occurs every 12 CL
         print(newlist)
 
 """
