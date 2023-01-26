@@ -4,24 +4,33 @@
 if __name__ == '__main__':
     start = 1006
     # the collection level (CL1006) where reserves begin
-    casecount = 0
-    # a case is 10 "packs" of 4 "boxes" each (a "box" is 12 CL's with 1 Reserve)
-    while start < 2591:
-        # my collection is currently CL 2590
-        newlist = []
-        # instantiate a new list to replace the last one
+    CL = input("Enter your Collection Level as an integer:")
+    box_count = 0
+    pack_count = 1
+    case_count = 0
+    # start the counts at 0. A case is 10 "packs" of 4 "boxes" each
+    # (a "box" is 12 CL's incl Boosters, Credits, and a Reserve)
+    while start < int(CL) + 1:
+        # runs until it reaches your CL, then stops
+        new_list = []
+        # instantiate new list of boxes per loop
+        box_count = 0
+        # resets the box count going into the next pack
+        pack_count += 1
+        # keeps track of which pack we're counting
         for _ in range(4):
-            # every 4 reserves from 1006
-            newlist.append(start)
+            # every 4 reserves from 1006:
+            box_count += 1
+            # keeps track of which box we're on
+            new_list.append(start)
             start += 12
             # a reserve (box) occurs every 12 CL
         if (start - 1054) % 480 == 0:
             # 1054 is very first CL of the second "pack" in case 1. [It makes the math work.]
-            casecount += 1
-            print(f'cracking open case {casecount}:')
-        print(newlist)
+            pack_count = 1
+            # reset the pack count and start on the next case:
+            case_count += 1
+            print(f'cracking open case {case_count}:')
+        print(f"pack {pack_count}: ", new_list)
+    print(f"Your Collection is [printing out] box {box_count} of pack {pack_count} in case {case_count}")
 
-"""
-Results: [1006, 1018, 1030, 1042] ... [2590, 2602, 2614, 2626]
-We can see from this that my CL2590 is 1 "box" into the 4th "pack" of "case" 4 overall.
-"""
