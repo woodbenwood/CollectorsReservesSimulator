@@ -1,5 +1,6 @@
 # CollectorsReservesSimulator
-adding (edit:) *12* to 1006 in groups of 4
+adding 12 to 1006 in groups of 4
+NOW with a case counter! know what case of 480 CL's you're in!
 
 Just as it says above, I wanted to do some math to learn something trivial in my video game Marvel Snap
 (Trivial but sooooo interesting today.)
