@@ -1,5 +1,3 @@
-# just literally wanted to do the math on Marvel Snap's Collectors Reserves,
-# to know which 'pack' of 4 reserves/boxes I'm currently in...
 
 if __name__ == '__main__':
     start = 1006
@@ -30,7 +28,7 @@ if __name__ == '__main__':
             pack_count = 1
             # reset the pack count and start on the next case:
             case_count += 1
-            print(f'cracking open case {case_count}:')
+            print(f'Cracking open CASE {case_count}:')
         print(f"pack {pack_count}: ", new_list)
-    print(f"Your Collection is [printing out] box {box_count} of pack {pack_count} in case {case_count}")
+    print(f"Your Collection is [printing out thru box {box_count}] of pack {pack_count} in case {case_count}")
 
