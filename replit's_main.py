@@ -1,3 +1,7 @@
+"""
+Click Run and enter your CL# to see what Reserves box/pack/case you're in
+From the research done by VinKelsier (read this article): https://snap.fan/guides/identifying-your-next-s4-card-location/
+"""
 
 if __name__ == '__main__':
     start = 1006
@@ -15,9 +19,9 @@ if __name__ == '__main__':
         pack_count += 1
         # keeps track of which pack we're counting
         for _ in range(4):
-            # every 4 reserves from 1006:
+            # every 4 Reserves from 1006:
             new_list.append(start)
-            # add the no. representing the reserve to the list
+            # add the no. representing the Reserve to the list
             start += 12
             # a reserve (box) occurs every 12 CL
         if (start - 1054) % 480 == 0:
@@ -25,9 +29,8 @@ if __name__ == '__main__':
             pack_count = 1
             # reset the pack count and start on the next case:
             case_count += 1
-            print(f'Cracking open Case {case_count}:')
+            print(f'   --------- Case {case_count} ---------   ')
         print(f"pack {pack_count}: ", new_list)
     box_count = ((CL - new_list[0]) // 12) + 1
-    # your CL minus the no. of the first reserve, with math to arrive at a 1-4
+    # your CL minus the no. of the first Reserve, with math to arrive at a 1-4
     print(f"Your Collection is on box {box_count} of pack {pack_count} in case {case_count}")
-
