@@ -13,7 +13,8 @@ if __name__ == '__main__':
     if choice == "Dr":
         CL = 3086
     elif choice == "random":
-        pass
+        print("a randomized opening of Reserves through Case 5:")
+        CL = 3394
     else:
         CL = int(choice)
     box_count = 0
@@ -52,8 +53,8 @@ if __name__ == '__main__':
             case_count += 1
             print(f'   --------- Case {case_count} ---------   ')
         print(f"pack {pack_count}: ", new_list)
-    box_count = ((CL - new_list[0]) // 12) + 1
-    # your CL minus the no. of the first Reserve, with math to arrive at a 1-4
+        box_count = ((CL - new_list[0]) // 12) + 1
+        # your CL minus the no. of the first Reserve, with math to arrive at a 1-4
     if choice == "Dr":
         print(f"Doc's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
         print(f"Bought with tokens: Miles Morales, Cerebro, Jane Foster, \n"

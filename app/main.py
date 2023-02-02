@@ -27,6 +27,6 @@ if __name__ == '__main__':
             case_count += 1
             print(f'Cracking open Case {case_count}:')
         print(f"pack {pack_count}: ", new_list)
-    box_count = ((CL - new_list[0]) // 12) + 1
-    # your CL minus the no. of the first reserve, with math to arrive at a 1-4
+        box_count = ((CL - new_list[0]) // 12) + 1
+        # your CL minus the no. of the first reserve, with math to arrive at a 1-4
     print(f"Your Collection is on box {box_count} of pack {pack_count} in case {case_count}")
