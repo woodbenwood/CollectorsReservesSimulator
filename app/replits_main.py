@@ -3,10 +3,16 @@ Click Run and enter your CL# to see what Reserves box/pack/case you're in
 From the research done by VinKelsier (read this article): https://snap.fan/guides/identifying-your-next-s4-card-location/
 """
 
+from app.drs_dict import dr_dict
+
 if __name__ == '__main__':
     start = 1006
     # the collection level (CL1006) where reserves begin
-    CL = int(input("Enter your Collection Level:"))
+    choice = input("Enter your Collection Level:")
+    if choice == "Dr":
+        CL = 3040
+    else:
+        CL = int(choice)
     box_count = 0
     pack_count = 1
     case_count = 0
@@ -20,10 +26,20 @@ if __name__ == '__main__':
         # keeps track of which pack we're counting
         for _ in range(4):
             # every 4 Reserves from 1006:
-            new_list.append(start)
-            # add the no. representing the Reserve to the list
-            start += 12
-            # a reserve (box) occurs every 12 CL
+            if choice == "Dr":
+                if start in dr_dict.keys():
+                    new_list.append(dr_dict[start])
+                    # print to the list of Reserves the card opened there
+                else:
+                    new_list.append(start)
+                    # OR add the no. representing the Reserve to the list
+                start += 12
+                # a reserve (box) occurs every 12 CL
+            else:
+                new_list.append(start)
+                # add the no. representing the Reserve to the list
+                start += 12
+                # a reserve (box) occurs every 12 CL
         if (start - 1054) % 480 == 0:
             # 1054 is very first CL of the second "pack" in case 1. [It makes the math work.]
             pack_count = 1
@@ -33,4 +49,9 @@ if __name__ == '__main__':
         print(f"pack {pack_count}: ", new_list)
     box_count = ((CL - new_list[0]) // 12) + 1
     # your CL minus the no. of the first Reserve, with math to arrive at a 1-4
-    print(f"Your Collection is on box {box_count} of pack {pack_count} in case {case_count}")
+    if choice == "Dr":
+        print(f"Doc's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
+        print("Bought with tokens: Miles Morales, Cerebro, Jane Foster, "
+              "Mister Negative, Psylocke, Wave, Daredevil, Rogue")
+    else:
+        print(f"Your Collection is on box {box_count} of pack {pack_count} in case {case_count}")
