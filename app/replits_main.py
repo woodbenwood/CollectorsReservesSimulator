@@ -11,6 +11,8 @@ if __name__ == '__main__':
     choice = input("Enter your Collection Level:")
     if choice == "Dr":
         CL = 3040
+    elif choice == "random":
+        pass
     else:
         CL = int(choice)
     box_count = 0
@@ -35,6 +37,8 @@ if __name__ == '__main__':
                     # OR add the no. representing the Reserve to the list
                 start += 12
                 # a reserve (box) occurs every 12 CL
+            elif choice == "random":
+                pass
             else:
                 new_list.append(start)
                 # add the no. representing the Reserve to the list
@@ -53,5 +57,7 @@ if __name__ == '__main__':
         print(f"Doc's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
         print("Bought with tokens: Miles Morales, Cerebro, Jane Foster, "
               "Mister Negative, Psylocke, Wave, Daredevil, Rogue")
+    elif choice == "random":
+        pass
     else:
         print(f"Your Collection is on box {box_count} of pack {pack_count} in case {case_count}")
