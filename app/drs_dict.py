@@ -125,4 +125,5 @@ if __name__ == '__main__':
         box_count = ((CL - new_list[0]) // 12) + 1
         # your CL minus the no. of the first reserve, with math to arrive at a 1-4
         print(f"Doc's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
-        print("Bought with tokens: Miles Morales, Jane Foster, Cerebro, Psylocke, Wave, Rogue")
+        print("Bought with tokens: Miles Morales, Cerebro, Jane Foster, "
+              "Mister Negative, Psylocke, Wave, Daredevil, Rogue")
