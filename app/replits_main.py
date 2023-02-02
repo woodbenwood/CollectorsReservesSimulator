@@ -1,6 +1,7 @@
 """
 Click Run and enter your CL# to see what Reserves box/pack/case you're in
-From the research done by VinKelsier (read this article): https://snap.fan/guides/identifying-your-next-s4-card-location/
+From the research done by VinKelsier (read this article):
+https://snap.fan/guides/identifying-your-next-s4-card-location/
 """
 
 from app.drs_dict import dr_dict
@@ -10,7 +11,7 @@ if __name__ == '__main__':
     # the collection level (CL1006) where reserves begin
     choice = input("Enter your Collection Level:")
     if choice == "Dr":
-        CL = 3040
+        CL = 3086
     elif choice == "random":
         pass
     else:
@@ -55,8 +56,8 @@ if __name__ == '__main__':
     # your CL minus the no. of the first Reserve, with math to arrive at a 1-4
     if choice == "Dr":
         print(f"Doc's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
-        print("Bought with tokens: Miles Morales, Cerebro, Jane Foster, "
-              "Mister Negative, Psylocke, Wave, Daredevil, Rogue")
+        print(f"Bought with tokens: Miles Morales, Cerebro, Jane Foster, \n"
+              "Mister Negative, Wave, Psylocke, Daredevil, Rogue")
     elif choice == "random":
         pass
     else:

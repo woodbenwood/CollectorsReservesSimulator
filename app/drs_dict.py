@@ -71,8 +71,9 @@ dr_dict = {
     2878: "Leader",
     2926: "Drax",
     2986: "Maximus",
+    3058: "Falcon",
+    3082: "Captain Marvel",
 }
-
 
 s3_set = {
     'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
@@ -85,7 +86,12 @@ s3_set = {
     'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor', 'Titania',
     'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero'}
 
-# not yet updated for first Series Drop
+s4_set = {
+    'AGENT COULSON', 'ATTUMA', 'BAST', 'BLACK PANTHER', 'HELICARRIER', 'M\'BAKU', 'MARIA HILL', 'ORKA', 'SHURI',
+    'SUPER SKRULL', 'VALKYRIE'}
+
+s5_set = {
+    'DARKHAWK', 'DAZZLER', 'GALACTUS', 'KNULL', 'SAURON', 'SENTRY', 'SHANNA', 'SILVER SURFER', 'THANOS'}
 
 
 if __name__ == '__main__':
