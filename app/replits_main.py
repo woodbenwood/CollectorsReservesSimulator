@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # the collection level (CL1006) where reserves begin
     choice = input("Enter your Collection Level:")
     if choice == "Dr":
-        CL = 3086
+        CL = 3118
     elif choice == "random":
         print("a randomized opening of Reserves through Case 5:")
         CL = 3394
