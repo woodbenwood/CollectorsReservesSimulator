@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # the collection level (CL1006) where reserves begin
     choice = input("Enter your Collection Level:")
     if choice == "Dr":
-        CL = 3310
+        CL = 3266
     elif choice == "random":
         print("a randomized opening of Reserves through Case 5:")
         CL = 3394
@@ -32,6 +32,7 @@ if __name__ == '__main__':
             # every 4 Reserves from 1006:
             if choice == "Dr":
                 if start in dr_dict.keys():
+                    memory = start
                     new_list.append(dr_dict[start])
                     # print to the list of Reserves the card opened there
                 else:
@@ -53,12 +54,16 @@ if __name__ == '__main__':
             case_count += 1
             print(f'   --------- Case {case_count} ---------   ')
         print(f"pack {pack_count}: ", new_list)
+    if new_list[0][0].isalpha():
+        # this codeblock makes sure a card name (if any) is converted back into a number for math:
+        new_list.pop(0)
+        new_list.insert(0, memory)
     box_count = ((CL - new_list[0]) // 12) + 1
     # your CL minus the no. of the first Reserve, with math to arrive at a 1-4
     if choice == "Dr":
         print(f"DrStrangePhD's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
-        print(f"Bought with tokens: Miles Morales, Cerebro, Jane Foster...\n"
-              "...Mister Negative, Wave, Psylocke, Daredevil, Rogue")
+        print(f"(bought with tokens: Miles Morales, Cerebro, Jane Foster...\n"
+              "...Mister Negative, Wave, Psylocke, Daredevil, Rogue)")
     elif choice == "random":
         pass
     else:
