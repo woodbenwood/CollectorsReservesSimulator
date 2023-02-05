@@ -8,6 +8,9 @@ from app.drs_dict import dr_dict, s3_set, s4_set, s5_set
 from app.random_opening import roll_reserve, pick_a_box
 
 
+# DEFINE A FUNCTION TO PICK A PACK in the case TO CONTAIN AN S4 CARD (just under case count below)
+
+
 def cache_pull():
     pull = roll_reserve()()
     if pull in s3_set:
@@ -60,6 +63,7 @@ if __name__ == '__main__':
                     memory = start
                     roll = cache_pull()
                     new_list.append(roll)
+                    # needs a pity timer function to award an s4 in pack 10 of each case if not already pulled
                 else:
                     new_list.append(start)
                 start += 12
@@ -73,6 +77,7 @@ if __name__ == '__main__':
             pack_count = 1
             # reset the pack count and start on the next case:
             case_count += 1
+            # DEFINE A FUNCTION TO PICK A PACK in the case TO CONTAIN AN S4 CARD
             print(f'   --------- Case {case_count} ---------   ')
         print(f"pack {pack_count}: ", new_list)
     if not str(new_list[0]).isnumeric():
@@ -95,4 +100,3 @@ if __name__ == '__main__':
               f"would make you Series 3 complete: {sorted(s3_set)}.")
     else:
         print(f"CL {CL} is box {box_count} of pack {pack_count} in case {case_count}")
-
