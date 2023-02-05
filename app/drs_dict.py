@@ -1,3 +1,25 @@
+
+s3_set = {
+    'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
+    'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger',
+    'Daredevil', 'Deadpool', 'Death', 'Debrii', 'Destroyer', 'Doctor Doom', 'Doctor Octopus', 'Dracula', 'Drax',
+    'Electro', 'Falcon', 'Gambit', 'Ghost Rider', 'Giganto', 'Goose', 'Green Goblin', 'Hazmat', 'Hela', 'Hell Cow',
+    'Human Torch', 'Invisible Woman', 'Jane Foster', 'Juggernaut', 'Kingpin', 'Leader', 'Lockjaw', 'Luke Cage', 'Magik',
+    'Magneto', 'Maximus', 'Miles Morales', 'Mister Negative', 'Mojo', 'Moon Knight', 'Mysterio', 'Mystique',
+    'Nick Fury', 'Omega Red', 'Patriot', 'Polaris', 'Psylocke', 'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide',
+    'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor', 'Titania',
+    'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero'}
+
+s4_set = {
+    'AGENT COULSON', 'ATTUMA', 'BAST', 'BLACK PANTHER', 'HELICARRIER', 'M\'BAKU', 'MARIA HILL', 'ORKA', 'SHURI',
+    'SUPER SKRULL', 'VALKYRIE'}
+
+s5_set = {
+    'DARKHAWK', 'DAZZLER', 'GALACTUS', 'KNULL', 'SAURON', 'SENTRY', 'SHANNA', 'SILVER SURFER', 'THANOS'}
+
+token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue"]
+
+
 # this is the order I got the s3 cards
 
 dr_dict = {
@@ -78,26 +100,6 @@ dr_dict = {
     3226: "Patriot",
     3262: "She-Hulk",
 }
-
-s3_set = {
-    'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
-    'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger',
-    'Daredevil', 'Deadpool', 'Death', 'Debrii', 'Destroyer', 'Doctor Doom', 'Doctor Octopus', 'Dracula', 'Drax',
-    'Electro', 'Falcon', 'Gambit', 'Ghost Rider', 'Giganto', 'Goose', 'Green Goblin', 'Hazmat', 'Hela', 'Hell Cow',
-    'Human Torch', 'Invisible Woman', 'Jane Foster', 'Juggernaut', 'Kingpin', 'Leader', 'Lockjaw', 'Luke Cage', 'Magik',
-    'Magneto', 'Maximus', 'Miles Morales', 'Mister Negative', 'Mojo', 'Moon Knight', 'Mysterio', 'Mystique',
-    'Nick Fury', 'Omega Red', 'Patriot', 'Polaris', 'Psylocke', 'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide',
-    'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor', 'Titania',
-    'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero'}
-
-s4_set = {
-    'AGENT COULSON', 'ATTUMA', 'BAST', 'BLACK PANTHER', 'HELICARRIER', 'M\'BAKU', 'MARIA HILL', 'ORKA', 'SHURI',
-    'SUPER SKRULL', 'VALKYRIE'}
-
-s5_set = {
-    'DARKHAWK', 'DAZZLER', 'GALACTUS', 'KNULL', 'SAURON', 'SENTRY', 'SHANNA', 'SILVER SURFER', 'THANOS'}
-
-token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue"]
 
 
 if __name__ == '__main__':

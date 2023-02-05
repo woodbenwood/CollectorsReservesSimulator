@@ -1,14 +1,14 @@
-import random
+# import random
 from app.drs_dict import s5_set, s4_set, s3_set
-from Fortuna import RandomValue
+from Fortuna import RandomValue, percent_true
 
 
-def s5chance(percent=.25):
-    return random.randrange(100) < percent
+def s5chance():
+    return percent_true(.25)
 
 
-def s4chance(percent=2.5):
-    return random.randrange(100) < percent
+def s4chance():
+    return percent_true(2.5)
 
 
 def roll_reserve():
@@ -18,6 +18,15 @@ def roll_reserve():
         return RandomValue(s4_set)
     else:
         return RandomValue(s3_set)
+
+
+# as written in random library:
+# def s5chance(percent=.25):
+#     return random.randrange(100) < percent
+#
+#
+# def s4chance(percent=2.5):
+#     return random.randrange(100) < percent
 
 
 def pick_a_box():

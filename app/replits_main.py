@@ -3,9 +3,21 @@ Click Run and enter your CL# to see what Reserves box/pack/case you're in
 From the research done by VinKelsier (read this article):
 https://snap.fan/guides/identifying-your-next-s4-card-location/
 """
-from Fortuna import RandomValue
-from app.drs_dict import dr_dict
+
+from app.drs_dict import dr_dict, s3_set, s4_set, s5_set
 from app.random_opening import roll_reserve, pick_a_box
+
+
+def cache_pull():
+    pull = roll_reserve()()
+    if pull in s3_set:
+        s3_set.remove(pull)
+    elif pull in s4_set:
+        s4_set.remove(pull)
+    else:
+        s5_set.remove(pull)
+    return pull
+
 
 if __name__ == '__main__':
     start = 1006
@@ -46,8 +58,8 @@ if __name__ == '__main__':
             elif choice == "random":
                 if box == i:
                     memory = start
-                    roll = roll_reserve()
-                    new_list.append(roll())
+                    roll = cache_pull()
+                    new_list.append(roll)
                 else:
                     new_list.append(start)
                 start += 12
@@ -75,7 +87,12 @@ if __name__ == '__main__':
         print(f"(bought with tokens: Miles Morales, Cerebro, Jane Foster...\n"
               "...Mister Negative, Wave, Psylocke, Daredevil, Rogue)")
     elif choice == "random":
-        print(f"This randomized account has also accumulated 8000 tokens.")
-        print(f"Already acquired from Collectors Caches: {roll()} (feature under construction)")
+        cache_pull_list = []
+        for _ in range(28):
+            cache_pull_list.append(cache_pull())
+        print(f"Already acquired from Collectors Caches: {sorted(cache_pull_list)}.")
+        print(f"In 5 cases, you've also acquired 5000 tokens. At 1000 apiece, buying these remaining Series 3 cards "
+              f"would make you Series 3 complete: {sorted(s3_set)}.")
     else:
         print(f"CL {CL} is box {box_count} of pack {pack_count} in case {case_count}")
+
