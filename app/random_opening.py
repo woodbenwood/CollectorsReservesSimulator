@@ -20,15 +20,6 @@ def roll_reserve():
         return RandomValue(s3_set)
 
 
-# as written in random library:
-# def s5chance(percent=.25):
-#     return random.randrange(100) < percent
-#
-#
-# def s4chance(percent=2.5):
-#     return random.randrange(100) < percent
-
-
 def pick_a_box():
     four_boxes = {1, 2, 3, 4}
     return RandomValue(four_boxes)
