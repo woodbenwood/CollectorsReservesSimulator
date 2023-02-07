@@ -1,7 +1,5 @@
 # CollectorsReservesSimulator
 
-adding 12 to 1006 in groups of 4
-
-NOW with a case counter -- know what case of 480 CL's you're in!
+Groups Marvel Snap CL's (Collection Levels) into boxes, packs, and cases for ease in mapping. Enter special code "Dr" to see the distrubution of cards in DrStrangePhD's collection. Feature under construction: soon you will be able to enter special code "random" to simulate a new random collection opening through case 5 (approx Series 3 completion.)
 
 my replit page where you can run this: https://replit.com/@woodbenwood/CollectorsReservesSimulator#main.py
