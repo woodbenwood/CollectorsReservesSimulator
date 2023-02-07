@@ -20,7 +20,7 @@ if __name__ == '__main__':
     else:
         CL = int(choice)
     box_count = 0
-    pack_count = 1
+    pack_count = 0
     case_count = 0
     # start the counts at 0. A case is 10 "packs" of 4 "boxes" each
     # (a "box" is 12 CL's incl Boosters, Credits, and a Reserve)
@@ -32,17 +32,16 @@ if __name__ == '__main__':
         # keeps track of which pack we're counting
         box = pick_a_box()()
         # for the random option, this picks which Reserve the card appears in
-        pack = pick_a_pack()()
-        # this decides which pack in the case contains the Series 4 card.
         if (start - 1006) % 480 == 0:
             # this math determines when a new case is starting
+            pack = pick_a_pack()()
+            # this decides which pack in the case contains the Series 4 card.
             pack_count = 1
             # reset the pack count and start on the next case:
             case_count += 1
-            # todo: rig up pick_a_pack to work with this codeblock
             print(f'   --------- Case {case_count} ---------   ')
             # this print statement displays the case counts on the console
-        for i in [1, 2, 3, 4]:
+        for i in range(4):
             # every 4 Reserves from 1006:
             if choice == "Dr":
                 if start in dr_dict.keys():
@@ -56,13 +55,17 @@ if __name__ == '__main__':
                 # a reserve (box) occurs every 12 CL
             elif choice == "random":
                 if pack == pack_count:
-                    timer = timer_card()
-                    new_list.append(timer)
-                elif box == i:
+                    if box == i + 1:
+                        memory = start
+                        timer = timer_card()
+                        new_list.append(timer)
+                    else:
+                        new_list.append(start)
+                    # start += 12
+                elif box == i + 1:
                     memory = start
                     roll = cache_pull()
                     new_list.append(roll)
-                    # todo: a pity timer function to award an s4 in pack 10 of each case if not already pulled
                 else:
                     new_list.append(start)
                 start += 12
@@ -89,7 +92,7 @@ if __name__ == '__main__':
         for _ in range(28):
             cache_pull_list.append(cache_pull())
         print(f"Acquired prior from Collectors Caches: {sorted(cache_pull_list)}.")
-        print(f"In 5 cases, you've also acquired 8000 tokens. At 1000 apiece, buying these remaining Series 3 cards "
-              f"would make you Series 3 complete: {sorted(s3_set)}.")
+        print(f"In 5 cases (and various rewards thus far), you've also acquired 8000 tokens. At 1000 apiece, "
+              f"buying these remaining Series 3 cards would make you Series 3 complete: {sorted(s3_set)}.")
     else:
         print(f"CL {CL} is box {box_count} of pack {pack_count} in case {case_count}")
