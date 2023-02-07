@@ -24,6 +24,11 @@ def roll_reserve():
         return choice(s3_set)
 
 
+def pick_a_pack():
+    ten_packs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    return choice(ten_packs)
+
+
 if __name__ == '__main__':
     for i in range(10):
         rolling = roll_reserve()

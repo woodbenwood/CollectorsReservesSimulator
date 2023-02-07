@@ -5,21 +5,7 @@ https://snap.fan/guides/identifying-your-next-s4-card-location/
 """
 
 from app.drs_dict import dr_dict, s3_set, s4_set, s5_set
-from app.random_opening import roll_reserve, pick_a_box
-
-
-# DEFINE A FUNCTION TO PICK A PACK in the case TO CONTAIN AN S4 CARD (just under case count below)
-
-
-def cache_pull():
-    pull = roll_reserve()()
-    if pull in s3_set:
-        s3_set.remove(pull)
-    elif pull in s4_set:
-        s4_set.remove(pull)
-    else:
-        s5_set.remove(pull)
-    return pull
+from app.random_opening import roll_reserve, pick_a_box, cache_pull, pick_a_pack, s4_timer, timer_card
 
 
 if __name__ == '__main__':
@@ -46,6 +32,16 @@ if __name__ == '__main__':
         # keeps track of which pack we're counting
         box = pick_a_box()()
         # for the random option, this picks which Reserve the card appears in
+        pack = pick_a_pack()()
+        # this decides which pack in the case contains the Series 4 card.
+        if (start - 1006) % 480 == 0:
+            # this math determines when a new case is starting
+            pack_count = 1
+            # reset the pack count and start on the next case:
+            case_count += 1
+            # todo: rig up pick_a_pack to work with this codeblock
+            print(f'   --------- Case {case_count} ---------   ')
+            # this print statement displays the case counts on the console
         for i in [1, 2, 3, 4]:
             # every 4 Reserves from 1006:
             if choice == "Dr":
@@ -59,7 +55,10 @@ if __name__ == '__main__':
                 start += 12
                 # a reserve (box) occurs every 12 CL
             elif choice == "random":
-                if box == i:
+                if pack == pack_count:
+                    timer = timer_card()
+                    new_list.append(timer)
+                elif box == i:
                     memory = start
                     roll = cache_pull()
                     new_list.append(roll)
@@ -72,14 +71,8 @@ if __name__ == '__main__':
                 # add the no. representing the Reserve to the list
                 start += 12
                 # a reserve (box) occurs every 12 CL
-        if (start - 1054) % 480 == 0:
-            # 1054 is very first CL of the second "pack" in case 1. (It makes the math work.)
-            pack_count = 1
-            # reset the pack count and start on the next case:
-            case_count += 1
-            # todo: DEFINE A FUNCTION TO PICK A PACK in the case TO CONTAIN AN S4 CARD
-            print(f'   --------- Case {case_count} ---------   ')
         print(f"pack {pack_count}: ", new_list)
+        # this print statement displays the pack counts on the console, with their box numbers bracketed
     if not str(new_list[0]).isnumeric():
         # this codeblock makes sure a card name (if any) is converted back into a number, for math:
         new_list.pop(0)
@@ -95,8 +88,8 @@ if __name__ == '__main__':
         cache_pull_list = []
         for _ in range(28):
             cache_pull_list.append(cache_pull())
-        print(f"Already acquired from Collectors Caches: {sorted(cache_pull_list)}.")
-        print(f"In 5 cases, you've also acquired 5000 tokens. At 1000 apiece, buying these remaining Series 3 cards "
+        print(f"Acquired prior from Collectors Caches: {sorted(cache_pull_list)}.")
+        print(f"In 5 cases, you've also acquired 8000 tokens. At 1000 apiece, buying these remaining Series 3 cards "
               f"would make you Series 3 complete: {sorted(s3_set)}.")
     else:
         print(f"CL {CL} is box {box_count} of pack {pack_count} in case {case_count}")
