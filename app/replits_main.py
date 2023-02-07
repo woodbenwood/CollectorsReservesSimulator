@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # the collection level (CL1006) where reserves begin
     choice = input("Enter your Collection Level:")
     if choice == "Dr":
-        CL = 3294
+        CL = 3500
     elif choice == "random":
         print("a randomized opening of Reserves through Case 5:")
         CL = 3394
@@ -63,7 +63,7 @@ if __name__ == '__main__':
                     memory = start
                     roll = cache_pull()
                     new_list.append(roll)
-                    # needs a pity timer function to award an s4 in pack 10 of each case if not already pulled
+                    # todo: a pity timer function to award an s4 in pack 10 of each case if not already pulled
                 else:
                     new_list.append(start)
                 start += 12
@@ -73,11 +73,11 @@ if __name__ == '__main__':
                 start += 12
                 # a reserve (box) occurs every 12 CL
         if (start - 1054) % 480 == 0:
-            # 1054 is very first CL of the second "pack" in case 1. [It makes the math work.]
+            # 1054 is very first CL of the second "pack" in case 1. (It makes the math work.)
             pack_count = 1
             # reset the pack count and start on the next case:
             case_count += 1
-            # DEFINE A FUNCTION TO PICK A PACK in the case TO CONTAIN AN S4 CARD
+            # todo: DEFINE A FUNCTION TO PICK A PACK in the case TO CONTAIN AN S4 CARD
             print(f'   --------- Case {case_count} ---------   ')
         print(f"pack {pack_count}: ", new_list)
     if not str(new_list[0]).isnumeric():

@@ -1,4 +1,6 @@
 
+# these sets are lists now (on replit) to make random.choice work (replit doesn't have Fortuna)
+
 s3_set = {
     'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
     'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger',
@@ -99,6 +101,9 @@ dr_dict = {
     3190: "Absorbing Man",
     3226: "Patriot",
     3262: "She-Hulk",
+    3334: "400 tokens",
+    3358: "ATTUMA",
+    3418: "500 tokens",
 }
 
 
