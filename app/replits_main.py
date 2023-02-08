@@ -10,12 +10,14 @@ from app.random_opening import roll_reserve, pick_a_box, cache_pull, pick_a_pack
 
 if __name__ == '__main__':
     start = 1006
-    # the collection level (CL1006) where reserves begin
-    choice = input("Enter your Collection Level:")
+    # the collection level (CL1006) where Reserves begin
+    choice = input("Enter your Collection Level, 'Dr', or 'random':")
     if choice == "Dr":
         CL = 3500
     elif choice == "random":
-        print("a randomized opening of Reserves through Case 5:")
+        print('\n')
+        print("A randomized opening of Reserves through Case 5:")
+        print("~ Series 4 cards (and s5, if any) in uppercase ~")
         CL = 3394
     else:
         CL = int(choice)
@@ -39,7 +41,7 @@ if __name__ == '__main__':
             pack_count = 1
             # reset the pack count and start on the next case:
             case_count += 1
-            print(f'   --------- Case {case_count} ---------   ')
+            print('\n', f'   --------- Case {case_count} ---------   ')
             # this print statement displays the case counts on the console
         for i in range(4):
             # every 4 Reserves from 1006:
@@ -91,8 +93,11 @@ if __name__ == '__main__':
         cache_pull_list = []
         for _ in range(28):
             cache_pull_list.append(cache_pull())
+        print('\n')
+        print("In 5 cases (and various rewards thus far), you've also acquired 8000 tokens. At 1000 apiece, "
+              "buying these remaining Series 3 cards would make you Series 3 complete:")
+        print(f"{sorted(s3_set)}")
+        print('\n')
         print(f"Acquired prior from Collectors Caches: {sorted(cache_pull_list)}.")
-        print(f"In 5 cases (and various rewards thus far), you've also acquired 8000 tokens. At 1000 apiece, "
-              f"buying these remaining Series 3 cards would make you Series 3 complete: {sorted(s3_set)}.")
     else:
         print(f"CL {CL} is box {box_count} of pack {pack_count} in case {case_count}")

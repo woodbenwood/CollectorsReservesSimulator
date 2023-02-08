@@ -104,6 +104,7 @@ dr_dict = {
     3334: "400 tokens",
     3358: "ATTUMA",
     3418: "500 tokens",
+    3466: "200 tokens",
 }
 
 
