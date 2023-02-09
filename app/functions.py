@@ -35,6 +35,8 @@ def run_dr(start=1006):
                 # OR add the no. representing the Reserve to the list
             start += 12
             # a reserve (box) occurs every 12 CL
+        print(f"pack {pack_count}: ", new_list)
+        #         # this print statement displays the pack counts on the console, with their box numbers bracketed
     if not str(new_list[0]).isnumeric():
         # this codeblock makes sure a card name (if any) is converted back into a number, for math:
         new_list.pop(0)
@@ -99,6 +101,8 @@ def run_random(start=1006):
             else:
                 new_list.append(start)
             start += 12
+        print(f"pack {pack_count}: ", new_list)
+        # this print statement displays the pack counts on the console, with their box numbers bracketed
     if not str(new_list[0]).isnumeric():
         # this codeblock makes sure a card name (if any) is converted back into a number, for math:
         new_list.pop(0)
@@ -111,3 +115,23 @@ def run_random(start=1006):
     print("\n")
     print(f"{sorted(s3_set)}")
 
+
+def run_basic(start=1006):
+    cl = choice
+    box_count = 0
+    pack_count = 0
+    case_count = 0
+    while start < cl + 1:
+        # runs until it reaches your CL, then stops
+        new_list = []
+        # instantiate new list of boxes per loop
+        pack_count += 1
+        # keeps track of which pack we're counting
+        for i in range(4):
+            # every 4 Reserves from 1006:
+            new_list.append(start)
+            start += 12
+        print(f"pack {pack_count}: ", new_list)
+        # this print statement displays the pack counts on the console, with their box numbers bracketed
+    box_count = ((cl - new_list[0]) // 12) + 1
+    print(f"CL {cl} is box {box_count} of pack {pack_count} in case {case_count}")
