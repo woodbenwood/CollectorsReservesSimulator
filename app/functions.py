@@ -114,24 +114,3 @@ def run_random(start=1006):
           "gets this Collection to Series 3 completion:")
     print("\n")
     print(f"{sorted(s3_set)}")
-
-
-def run_basic(start=1006):
-    cl = choice
-    box_count = 0
-    pack_count = 0
-    case_count = 0
-    while start < cl + 1:
-        # runs until it reaches your CL, then stops
-        new_list = []
-        # instantiate new list of boxes per loop
-        pack_count += 1
-        # keeps track of which pack we're counting
-        for i in range(4):
-            # every 4 Reserves from 1006:
-            new_list.append(start)
-            start += 12
-        print(f"pack {pack_count}: ", new_list)
-        # this print statement displays the pack counts on the console, with their box numbers bracketed
-    box_count = ((cl - new_list[0]) // 12) + 1
-    print(f"CL {cl} is box {box_count} of pack {pack_count} in case {case_count}")

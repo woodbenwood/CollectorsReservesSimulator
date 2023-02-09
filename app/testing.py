@@ -1,7 +1,7 @@
 from app.drs_dict import dr_dict, dr_CL, s3_set, s4_set, s5_set
 from app.random_4_replit import s4chance, s5chance, pick_a_pack, roll_cache, roll_reserve, pick_a_box, \
      cache_pull, s4_timer, timer_card
-from app.functions import run_dr, run_random, run_basic
+from app.functions import run_dr, run_random
 
 
 start = 1006
@@ -23,8 +23,29 @@ elif choice == "random":
     run_random()
 else:
     cl = int(choice)
-    run_basic()
-
+    while start < cl + 1:
+        # runs until it reaches your CL, then stops
+        new_list = []
+        # instantiate new list of boxes per loop
+        pack_count += 1
+        # keeps track of which pack we're counting
+        if (start - 1006) % 480 == 0:
+            # this math determines when a new case is starting
+            pack = pick_a_pack()
+            # this decides which pack in the case contains the Series 4 card.
+            pack_count = 1
+            # reset the pack count and start on the next case:
+            case_count += 1
+            print("\n", f'     --------- Case {case_count} ---------   ')
+            # this print statement displays the case counts on the console
+        for i in range(4):
+            # every 4 Reserves from 1006:
+            new_list.append(start)
+            start += 12
+        print(f"pack {pack_count}: ", new_list)
+        # this print statement displays the pack counts on the console, with their box numbers bracketed
+    box_count = ((cl - new_list[0]) // 12) + 1
+    print(f"CL {cl} is box {box_count} of pack {pack_count} in case {case_count}")
 
 
 # if __name__ == '__main__':
