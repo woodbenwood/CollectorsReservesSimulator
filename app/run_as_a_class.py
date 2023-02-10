@@ -70,6 +70,7 @@ class Run:
             cache_pull_list = []
             for _ in range(7):
                 cache_pull_list.append(cache_pull())
+            # this double loop is slightly indulgent: it's just for cleanest formatting on replit (4 lists by 7 items)
             print(cache_pull_list)
         print("\n")
         print("A randomized opening of Reserves through Case 5:")
