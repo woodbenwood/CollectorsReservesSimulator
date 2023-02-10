@@ -1,7 +1,10 @@
 
 # these sets are lists now (on replit) to make random.choice work (replit doesn't have Fortuna)
+# not really a need at this time to keep them as sets in PyCharm either...
 
-s3_set = {
+dr_CL = 3885
+
+s3_set = [
     'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
     'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger',
     'Daredevil', 'Deadpool', 'Death', 'Debrii', 'Destroyer', 'Doctor Doom', 'Doctor Octopus', 'Dracula', 'Drax',
@@ -10,16 +13,16 @@ s3_set = {
     'Magneto', 'Maximus', 'Miles Morales', 'Mister Negative', 'Mojo', 'Moon Knight', 'Mysterio', 'Mystique',
     'Nick Fury', 'Omega Red', 'Patriot', 'Polaris', 'Psylocke', 'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide',
     'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor', 'Titania',
-    'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero'}
+    'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = {
+s4_set = [
     'AGENT COULSON', 'ATTUMA', 'BAST', 'BLACK PANTHER', 'HELICARRIER', 'M\'BAKU', 'MARIA HILL', 'ORKA', 'SHURI',
-    'SUPER SKRULL', 'VALKYRIE'}
+    'SUPER SKRULL', 'VALKYRIE']
 
-s5_set = {
-    'DARKHAWK', 'DAZZLER', 'GALACTUS', 'KNULL', 'SAURON', 'SENTRY', 'SHANNA', 'SILVER SURFER', 'THANOS'}
+s5_set = [
+    'DARKHAWK', 'DAZZLER', 'GALACTUS', 'KNULL', 'SAURON', 'SENTRY', 'SHANNA', 'SILVER SURFER', 'THANOS']
 
-token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue"]
+token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue", "SHURI"]
 
 
 # this is the order I got the s3 cards
@@ -105,8 +108,13 @@ dr_dict = {
     3358: "ATTUMA",
     3418: "500 tokens",
     3466: "200 tokens",
+    3538: "200 tokens",
+    3586: "600 tokens",
+    3598: "300 tokens?",
+    3670: "400 tokens",
+    3730: "M\'BAKU",
+    3742: "300 tokens",
 }
-
 
 if __name__ == '__main__':
     start = 1006
