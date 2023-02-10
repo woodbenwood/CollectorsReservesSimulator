@@ -63,7 +63,7 @@ class Run:
         new_list = []
         memory = None
         pack = None
-        # redundant assignments to appease linter
+        # redundant assignments (provided a good-faith input command) to appease linter
         print("\n")
         print(f"Acquired prior from Collector's Caches (486-994):")
         for _ in range(4):
