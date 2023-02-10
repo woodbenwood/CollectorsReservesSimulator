@@ -15,7 +15,7 @@ class Run:
         # start the relevant counts at 0
         new_list = []
         memory = None
-        # redundant assignments to appease linter
+        # redundant assignments (provided a good-faith input command) to appease linter
         while self.start < cl + 1:
             # runs until it reaches your CL, then stops
             new_list = []
