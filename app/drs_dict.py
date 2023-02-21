@@ -2,7 +2,7 @@
 # these sets are lists now (on replit) to make random.choice work (replit doesn't have Fortuna)
 # not really a need at this time to keep them as sets in PyCharm either...
 
-dr_CL = 3874
+dr_CL = 4200
 
 s3_set = [
     'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
@@ -116,7 +116,12 @@ dr_dict = {
     3742: "300 tokens",
     3814: "500 tokens",
     3874: "600 tokens",
-}
+    3898: "200 tokens",
+    3958: "300 tokens",
+    3994: "600 tokens",
+    4066: "SAURON",
+    4102: "500 tokens"
+,}
 
 if __name__ == '__main__':
     start = 1006
