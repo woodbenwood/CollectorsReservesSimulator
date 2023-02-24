@@ -2,7 +2,7 @@
 # these sets are lists now (on replit) to make random.choice work (replit doesn't have Fortuna)
 # not really a need at this time to keep them as sets in PyCharm either...
 
-dr_CL = 4200
+dr_CL = 4500
 
 s3_set = [
     'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
@@ -22,7 +22,8 @@ s4_set = [
 s5_set = [
     'DARKHAWK', 'DAZZLER', 'GALACTUS', 'KNULL', 'SAURON', 'SENTRY', 'SHANNA', 'SILVER SURFER', 'THANOS']
 
-token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue", "SHURI"]
+token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
+              "SHURI", "GALACTUS", "THANOS"]
 
 
 # this is the order I got the s3 cards
@@ -120,7 +121,15 @@ dr_dict = {
     3958: "300 tokens",
     3994: "600 tokens",
     4066: "SAURON",
-    4102: "500 tokens"
+    4102: "500 tokens",
+    4126: "200 tokens",
+    4210: "Helicarrier",
+    4222: "500 tokens",
+    4294: "600 tokens",
+    4330: "Knull",
+    4366: "400 tokens",
+    4438: "400 tokens",
+    4486: "300 tokens"
 ,}
 
 if __name__ == '__main__':
@@ -128,7 +137,7 @@ if __name__ == '__main__':
     # the collection level (CL1006) where reserves begin
     CL = input("Enter your Collection Level:")
     if CL == "Dr":
-        CL = 3226
+        CL = 4500
         box_count = 0
         pack_count = 1
         case_count = 0
