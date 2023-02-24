@@ -4,7 +4,7 @@ from Fortuna import RandomValue, percent_true
 
 
 def s5chance():
-    return percent_true(.25)
+    return percent_true(1.11)
 
 
 def s4chance():

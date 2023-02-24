@@ -120,6 +120,8 @@ def run_basic(start, cl):
     box_count = 0
     pack_count = 0
     case_count = 0
+    new_list = []
+    # redundant assignment (provided a good-faith input command) to appease linter
     while start < cl + 1:
         # runs until it reaches your CL, then stops
         new_list = []

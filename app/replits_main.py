@@ -41,6 +41,10 @@ box_count = 0
 pack_count = 0
 case_count = 0
 # start the counts at 0. A case is 10 "packs" of 4 "boxes" each
+new_list = []
+pack = None
+memory = None
+# redundant assignments (provided a good-faith input command) to appease linter
 while start < CL + 1:
     # runs until it reaches your CL, then stops
     new_list = []
