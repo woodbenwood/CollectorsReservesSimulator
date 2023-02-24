@@ -1,30 +1,28 @@
-
 # these sets are lists now (on replit) to make random.choice work (replit doesn't have Fortuna)
 # not really a need at this time to keep them as sets in PyCharm either...
 
 dr_CL = 4500
 
-s3_set = [
-    'Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Arnim Zola', 'Baron Mordo', 'Beast', 'Black Bolt',
-    'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger',
-    'Daredevil', 'Deadpool', 'Death', 'Debrii', 'Destroyer', 'Doctor Doom', 'Doctor Octopus', 'Dracula', 'Drax',
-    'Electro', 'Falcon', 'Gambit', 'Ghost Rider', 'Giganto', 'Goose', 'Green Goblin', 'Hazmat', 'Hela', 'Hell Cow',
-    'Human Torch', 'Invisible Woman', 'Jane Foster', 'Juggernaut', 'Kingpin', 'Leader', 'Lockjaw', 'Luke Cage', 'Magik',
-    'Magneto', 'Maximus', 'Miles Morales', 'Mister Negative', 'Mojo', 'Moon Knight', 'Mysterio', 'Mystique',
-    'Nick Fury', 'Omega Red', 'Patriot', 'Polaris', 'Psylocke', 'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide',
-    'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor', 'Titania',
-    'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
+s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Baron Mordo',
+          'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro', 'Colleen Wing',
+          'Crossbones', 'Crystal', 'Dagger', 'Daredevil', 'Deadpool', 'Death', 'Debrii', 'Destroyer', 'Doctor Doom',
+          'Doctor Octopus', 'Dracula', 'Drax', 'Electro', 'Falcon', 'Gambit', 'Ghost Rider', 'Giganto', 'Goose',
+          'Green Goblin', 'Hazmat', 'Hela', 'Helicarrier', 'Hell Cow', 'Human Torch', 'Invisible Woman', 'Jane Foster',
+          'Juggernaut', 'Kingpin', 'Leader', 'Lockjaw', 'Luke Cage', 'Magik', 'Magneto', 'Maria Hill', 'Maximus',
+          'Miles Morales', 'Mister Negative', 'Mojo', 'Moon Knight', 'Mysterio', 'Mystique', 'Nick Fury', 'Omega Red',
+          'Patriot', 'Polaris', 'Psylocke', 'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide', 'Rogue',
+          'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor', 'Titania',
+          'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = [
-    'AGENT COULSON', 'ATTUMA', 'BAST', 'BLACK PANTHER', 'HELICARRIER', 'M\'BAKU', 'MARIA HILL', 'ORKA', 'SHURI',
-    'SUPER SKRULL', 'VALKYRIE']
+s4_set = ['ATTUMA', 'BAST', 'BLACK PANTHER', 'DARKHAWK', 'KNULL', 'M\'BAKU', 'ORKA', 'SENTRY', 'SHURI', 'SILVER SURFER',
+          'SUPER SKRULL', 'VALKYRIE']
 
-s5_set = [
-    'DARKHAWK', 'DAZZLER', 'GALACTUS', 'KNULL', 'SAURON', 'SENTRY', 'SHANNA', 'SILVER SURFER', 'THANOS']
+s5_set = ['DAZZLER', 'GALACTUS', 'GHOST', 'SAURON', 'SHADOW KING', 'SHANNA', 'STATURE', 'THANOS', 'ZABU']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
               "SHURI", "GALACTUS", "THANOS"]
 
+bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.']
 
 # this is the order I got the s3 cards
 
@@ -129,8 +127,8 @@ dr_dict = {
     4330: "Knull",
     4366: "400 tokens",
     4438: "400 tokens",
-    4486: "300 tokens"
-,}
+    4486: "300 tokens",
+}
 
 if __name__ == '__main__':
     start = 1006
