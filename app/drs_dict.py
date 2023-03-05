@@ -128,7 +128,12 @@ dr_dict = {
     4366: "400 tokens",
     4438: "400 tokens",
     4486: "300 tokens",
+    4522: "Bast",
+    4594: "200 tokens",
+    4618: "600 tokens",
+    4666: "500 tokens",
 }
+
 
 if __name__ == '__main__':
     start = 1006
