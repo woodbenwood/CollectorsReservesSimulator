@@ -1,7 +1,7 @@
 # these sets are lists now (on replit) to make random.choice work (replit doesn't have Fortuna)
 # not really a need at this time to keep them as sets in PyCharm either...
 
-dr_CL = 4500
+dr_CL = 4800
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Baron Mordo',
           'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro', 'Colleen Wing',
