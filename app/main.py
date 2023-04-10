@@ -4,11 +4,8 @@ From the research done by VinKelsier (read this article):
 https://snap.fan/guides/identifying-your-next-s4-card-location/
 """
 
-from app.drs_dict import dr_dict, dr_CL, s3_set, s4_set, s5_set
-from app.random_4_replit import s4chance, s5chance, pick_a_pack, roll_cache, roll_reserve, pick_a_box, \
-     cache_pull, s4_timer, timer_card
-import Fortuna
-# (I prefer Fortuna to the random library, but replit doesn't support it)
+from app.drs_dict import dr_dict, dr_CL, s3_set
+from app.random_4_replit import pick_a_pack, pick_a_box, cache_pull, timer_card
 
 # from random import random
 # from drs_dict import dr_dict, s3_set, s4_set, s5_set
@@ -89,7 +86,7 @@ while start < CL + 1:
     print(f"pack {pack_count}: ", new_list)
     # this print statement displays the pack counts on the console, with their box numbers bracketed
     if not str(new_list[0]).isnumeric():
-    # this codeblock makes sure a card name (if any) is converted back into a number, for math:
+        # this codeblock makes sure a card name (if any) is converted back into a number, for math:
         new_list.pop(0)
         new_list.insert(0, memory)
 box_count = ((CL - new_list[0]) // 12) + 1
@@ -110,11 +107,6 @@ elif choice == "random":
     print(f"{sorted(s3_set)}")
 else:
     print(f"CL {CL} is box {box_count} of pack {pack_count} in case {case_count}")
-
-
-
-
-
 
 #
 # if __name__ == '__main__':

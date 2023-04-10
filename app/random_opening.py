@@ -1,4 +1,3 @@
-# import random
 from app.drs_dict import s5_set, s4_set, s3_set
 from Fortuna import RandomValue, percent_true
 

@@ -4,11 +4,8 @@ From the research done by VinKelsier (read this article):
 https://snap.fan/guides/identifying-your-next-s4-card-location/
 """
 
-from app.drs_dict import dr_dict, dr_CL, s3_set, s4_set, s5_set
-from app.random_4_replit import s4chance, s5chance, pick_a_pack, roll_cache, roll_reserve, pick_a_box, \
-     cache_pull, s4_timer, timer_card
-import Fortuna
-# (I prefer Fortuna to the random library, but replit doesn't support it)
+from app.drs_dict import dr_dict, dr_CL, s3_set
+from app.random_4_replit import pick_a_pack, pick_a_box, cache_pull, timer_card
 
 # from random import random
 # from drs_dict import dr_dict, s3_set, s4_set, s5_set

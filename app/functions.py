@@ -1,6 +1,5 @@
 from drs_dict import dr_CL, dr_dict, s3_set
-from app.random_4_replit import s4chance, s5chance, pick_a_pack, roll_cache, roll_reserve, pick_a_box, \
-     cache_pull, s4_timer, timer_card
+from app.random_4_replit import pick_a_pack, pick_a_box, cache_pull, timer_card
 
 
 def run_dr(start=1006):
