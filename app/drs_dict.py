@@ -19,7 +19,7 @@ s5_set = ['GALACTUS', 'GHOST', 'KANG', 'KITTY PRYDE', 'MASTER MOLD', 'NEGASONIC 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
               "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE"]
 
-bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD']
+bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY']
 
 # this is the order DrStrangePhD got the s3 cards
 
@@ -138,6 +138,20 @@ dr_dict = {
     5026: "200 tokens",
     5074: "500 tokens",
     5086: "300 tokens",
+    5158: "100 tokens???",
+    5170: "Steampunk Yellowjacket??",
+    5206: "600 tokens",
+    5230: "500 tokens",
+    5254: "500 tokens",
+    5266: "BLACK PANTHER",
+    5314: "600 tokens",
+    5326: "GHOST",
+    5338: "200 tokens",
+    5386: "400 tokens",
+    5398: "DARKHAWK",
+    5446: "400 tokens",
+    5470: "200 tokens",
+    5494: "400 tokens",
 }
 
 if __name__ == '__main__':
@@ -151,6 +165,8 @@ if __name__ == '__main__':
         case_count = 0
         # start the counts at 0. A case is 10 "packs" of 4 "boxes" each
         # (a "box" is 12 CL's incl Boosters, Credits, and a Reserve)
+        new_list = []
+        # a redundancy to appease the PyCharm linter
         while start < CL + 1:
             # runs until it reaches your CL, then stops
             new_list = []
