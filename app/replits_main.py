@@ -1,6 +1,6 @@
 """
 Click Run and enter your CL# to see what Reserves box/pack/case you're in
-Current as of the 3/21 patch (Version 13.13)
+[Current as of the 3/21 patch (Version 13.13)]
 From the research done by VinKelsier (read this article):
 https://snap.fan/guides/identifying-your-next-s4-card-location/
 """
