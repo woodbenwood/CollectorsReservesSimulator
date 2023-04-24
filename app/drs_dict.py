@@ -1,4 +1,4 @@
-dr_CL = 5098
+dr_CL = 5902
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Attuma',
           'Baron Mordo', 'Bast', 'Black Panther', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood',
@@ -168,7 +168,7 @@ if __name__ == '__main__':
     # the collection level (CL1006) where reserves begin
     CL = input("Enter your Collection Level:")
     if CL == "Dr":
-        CL = 4500
+        CL = 5902
         box_count = 0
         pack_count = 1
         case_count = 0
