@@ -1,18 +1,19 @@
 dr_CL = 5098
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Attuma',
-          'Baron Mordo', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood', 'Captain Marvel', 'Cerebro',
-          'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger', 'Daredevil', 'Deadpool', 'Death', 'Debrii', 'Destroyer',
-          'Doctor Doom', 'Doctor Octopus', 'Dracula', 'Drax', 'Electro', 'Falcon', 'Gambit', 'Ghost Rider', 'Giganto',
-          'Goose', 'Green Goblin', 'Hazmat', 'Hela', 'Helicarrier', 'Hell Cow', 'Human Torch', 'Invisible Woman',
-          'Jane Foster', 'Juggernaut', 'Kingpin', 'Leader', 'Lockjaw', 'Luke Cage', 'M\'Baku', 'Magik', 'Magneto',
-          'Maria Hill', 'Maximus', 'Miles Morales', 'Mister Negative', 'Mojo', 'Moon Knight', 'Mysterio', 'Mystique',
-          'Nick Fury', 'Omega Red', 'Orka', 'Patriot', 'Polaris', 'Psylocke', 'Quake', 'Quinjet', 'Red Skull', 'Rescue',
-          'Rockslide', 'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor',
-          'Titania', 'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
+          'Baron Mordo', 'Bast', 'Black Panther', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood',
+          'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger', 'Daredevil', 'Deadpool',
+          'Death', 'Debrii', 'Destroyer', 'Doctor Doom', 'Doctor Octopus', 'Dracula', 'Drax', 'Electro', 'Falcon',
+          'Gambit', 'Ghost Rider', 'Giganto', 'Goose', 'Green Goblin', 'Hazmat', 'Hela', 'Helicarrier', 'Hell Cow',
+          'Human Torch', 'Invisible Woman', 'Jane Foster', 'Juggernaut', 'Kingpin', 'Leader', 'Lockjaw', 'Luke Cage',
+          'M\'Baku', 'Magik', 'Magneto', 'Maria Hill', 'Maximus', 'Miles Morales', 'Mister Negative', 'Mojo',
+          'Moon Knight', 'Mysterio', 'Mystique', 'Nick Fury', 'Omega Red', 'Orka', 'Patriot', 'Polaris', 'Psylocke',
+          'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide', 'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk',
+          'Shuri', 'Spider-Man', 'Super Skrull', 'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron',
+          'Valkyrie', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = ['BAST', 'BLACK PANTHER', 'DARKHAWK', 'DAZZLER', 'GHOST', 'KNULL', 'M.O.D.O.K.', 'SAURON', 'SENTRY',
-          'SHADOW KING', 'SHANNA', 'SHURI', 'SILVER SURFER', 'STATURE', 'SUPER SKRULL', 'VALKYRIE', 'ZABU']
+s4_set = ['DARKHAWK', 'DAZZLER', 'GHOST', 'KNULL', 'M.O.D.O.K.', 'SAURON', 'SENTRY',
+          'SHADOW KING', 'SHANNA', 'SILVER SURFER', 'STATURE', 'ZABU']
 
 s5_set = ['GALACTUS', 'KANG', 'KITTY PRYDE', 'MASTER MOLD', 'NEGASONIC TEENAGE WARHEAD', 'THANOS']
 
