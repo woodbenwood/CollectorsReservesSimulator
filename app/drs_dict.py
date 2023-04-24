@@ -11,10 +11,10 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
           'Rockslide', 'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk', 'Spider-Man', 'Taskmaster', 'The Hood', 'Thor',
           'Titania', 'Typhoid Mary', 'Ultron', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = ['BAST', 'BLACK PANTHER', 'DARKHAWK', 'DAZZLER', 'KNULL', 'SAURON', 'SENTRY', 'SHADOW KING', 'SHANNA', 'SHURI',
-          'SILVER SURFER', 'SUPER SKRULL', 'VALKYRIE', 'ZABU']
+s4_set = ['BAST', 'BLACK PANTHER', 'DARKHAWK', 'DAZZLER', 'GHOST', 'KNULL', 'M.O.D.O.K.', 'SAURON', 'SENTRY',
+          'SHADOW KING', 'SHANNA', 'SHURI', 'SILVER SURFER', 'STATURE', 'SUPER SKRULL', 'VALKYRIE', 'ZABU']
 
-s5_set = ['GALACTUS', 'GHOST', 'KANG', 'KITTY PRYDE', 'MASTER MOLD', 'NEGASONIC TEENAGE WARHEAD', 'STATURE', 'THANOS']
+s5_set = ['GALACTUS', 'KANG', 'KITTY PRYDE', 'MASTER MOLD', 'NEGASONIC TEENAGE WARHEAD', 'THANOS']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
               "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE"]
