@@ -161,6 +161,9 @@ dr_dict = {
     5818: "STATURE",
     5830: "400 tokens",
     5854: "500 tokens",
+    5914: "200 tokens",
+    5962: "200 tokens",
+    6022: "500 tokens",
 }
 
 if __name__ == '__main__':
