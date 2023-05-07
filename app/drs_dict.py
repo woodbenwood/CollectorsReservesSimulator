@@ -15,12 +15,13 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
 s4_set = ['DARKHAWK', 'DAZZLER', 'GHOST', 'KNULL', 'M.O.D.O.K.', 'SAURON', 'SENTRY',
           'SHADOW KING', 'SHANNA', 'SILVER SURFER', 'STATURE', 'ZABU']
 
-s5_set = ['GALACTUS', 'KANG', 'KITTY PRYDE', 'MASTER MOLD', 'NEGASONIC TEENAGE WARHEAD', 'THANOS']
+s5_set = ['GALACTUS', 'JEFF', 'KANG', 'KITTY PRYDE', 'MASTER MOLD', 'NEGASONIC TEENAGE WARHEAD', 'STEGRON', 'SNOWGUARD',
+          'THANOS']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
               "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE"]
 
-bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY']
+bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY', 'NEBULA']
 
 # this is the order DrStrangePhD got the s3 cards
 
