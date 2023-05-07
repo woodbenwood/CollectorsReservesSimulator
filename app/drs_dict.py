@@ -1,4 +1,4 @@
-dr_CL = 6200
+dr_CL = 6300
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Attuma',
           'Baron Mordo', 'Bast', 'Black Panther', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood',
@@ -164,6 +164,10 @@ dr_dict = {
     5914: "200 tokens",
     5962: "200 tokens",
     6022: "500 tokens",
+    6070: "400 tokens",
+    6106: "500 tokens",
+    6130: "MASTER MOLD",
+    6178: "600 tokens",
 }
 
 if __name__ == '__main__':
