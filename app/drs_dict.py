@@ -15,7 +15,7 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
 s4_set = ['DARKHAWK', 'DAZZLER', 'GHOST', 'KNULL', 'M.O.D.O.K.', 'SAURON', 'SENTRY',
           'SHADOW KING', 'SHANNA', 'SILVER SURFER', 'STATURE', 'ZABU']
 
-s5_set = ['GALACTUS', 'JEFF', 'KANG', 'KITTY PRYDE', 'MASTER MOLD',
+s5_set = ['GALACTUS', 'JEFF', 'KANG', 'KITTY PRYDE', 'IRON LAD', 'MASTER MOLD',
           'NEGASONIC TEENAGE WARHEAD', 'STEGRON', 'SNOWGUARD', 'THANOS']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
