@@ -180,7 +180,7 @@ if __name__ == '__main__':
     # the collection level (CL1006) where reserves begin
     CL = input("Enter your Collection Level:")
     if CL == "Dr":
-        CL = 5902
+        CL = dr_CL
         box_count = 0
         pack_count = 1
         case_count = 0
@@ -209,7 +209,7 @@ if __name__ == '__main__':
                 pack_count = 1
                 # reset the pack count and start on the next case:
                 case_count += 1
-                print(f'Cracking open Case {case_count}:')
+                print("\n", f'     --------- Case {case_count} ---------   ')
             print(f"pack {pack_count}: ", new_list)
         box_count = ((CL - new_list[0]) // 12) + 1
         # your CL minus the no. of the first reserve, with math to arrive at a 1-4
