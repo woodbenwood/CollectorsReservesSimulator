@@ -169,6 +169,10 @@ dr_dict = {
     6106: "500 tokens",
     6130: "MASTER MOLD",
     6178: "600 tokens",
+    6214: "200 tokens",
+    6274: "400 tokens",
+    6298: "200 tokens",
+    6334: "300 tokens",
 }
 
 if __name__ == '__main__':
