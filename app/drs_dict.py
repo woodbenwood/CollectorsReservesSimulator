@@ -1,4 +1,4 @@
-dr_CL = 6300
+dr_CL = 6400
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Attuma',
           'Baron Mordo', 'Bast', 'Black Panther', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood',
@@ -13,8 +13,7 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
           'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron', 'Valkyrie', 'Venom', 'Viper', 'Wasp',
           'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.',
-          'NEGASONIC TEENAGE WARHEAD', 'NIMROD', 'SHANNA', 'STATURE', 'ZABU']
+s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.', 'NEGASONIC', 'NIMROD', 'SHANNA', 'STATURE', 'ZABU']
 
 s5_set = ['GALACTUS', 'HOWARD THE DUCK', 'IRON LAD', 'JEFF', 'KANG', 'KITTY PRYDE', 'SNOWGUARD', 'STEGRON', 'THANOS']
 
