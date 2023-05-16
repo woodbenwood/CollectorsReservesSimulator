@@ -119,14 +119,14 @@ dr_dict = {
     4066: "SAURON",
     4102: "500 tokens",
     4126: "200 tokens",
-    4210: "Helicarrier",
+    4210: "HELICARRIER",
     4222: "500 tokens",
     4294: "600 tokens",
-    4330: "Knull",
+    4330: "KNULL",
     4366: "400 tokens",
     4438: "400 tokens",
     4486: "300 tokens",
-    4522: "Bast",
+    4522: "BAST",
     4594: "200 tokens",
     4618: "600 tokens",
     4666: "500 tokens",
@@ -139,8 +139,6 @@ dr_dict = {
     5026: "200 tokens",
     5074: "500 tokens",
     5086: "300 tokens",
-    5158: "100 tokens???",
-    5170: "Steampunk Yellowjacket??",
     5206: "600 tokens",
     5230: "500 tokens",
     5254: "500 tokens",
@@ -172,7 +170,14 @@ dr_dict = {
     6274: "400 tokens",
     6298: "200 tokens",
     6334: "300 tokens",
+    6394: "500 tokens",
 }
+
+# removed from dr_dict:
+# 5158: "100 tokens???",
+# 5170: "Steampunk Yellowjacket??",
+
+# Not sure what happened during that promotion, but missing rewards from Packs 3 and 7 seemed to be replaced in Pack 9
 
 if __name__ == '__main__':
     start = 1006
