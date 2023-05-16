@@ -2,19 +2,18 @@ dr_CL = 6300
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Attuma',
           'Baron Mordo', 'Bast', 'Black Panther', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood',
-          'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger', 'Daredevil', 'Deadpool',
+          'Captain Marvel', 'Cerebro', 'Colleen Wing', 'Crossbones', 'Crystal', 'Dagger', 'Daredevil', 'Dazzler', 'Deadpool',
           'Death', 'Debrii', 'Destroyer', 'Doctor Doom', 'Doctor Octopus', 'Dracula', 'Drax', 'Electro', 'Falcon',
-          'Gambit', 'Ghost Rider', 'Giganto', 'Goose', 'Green Goblin', 'Hazmat', 'Hela', 'Helicarrier', 'Hell Cow',
+          'Gambit', 'Ghost', 'Ghost Rider', 'Giganto', 'Goose', 'Green Goblin', 'Hazmat', 'Hela', 'Helicarrier', 'Hell Cow',
           'Human Torch', 'Invisible Woman', 'Jane Foster', 'Juggernaut', 'Kingpin', 'Leader', 'Lockjaw', 'Luke Cage',
           'M\'Baku', 'Magik', 'Magneto', 'Maria Hill', 'Maximus', 'Miles Morales', 'Mister Negative', 'Mojo',
           'Moon Knight', 'Mysterio', 'Mystique', 'Nick Fury', 'Omega Red', 'Orka', 'Patriot', 'Polaris', 'Psylocke',
-          'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide', 'Rogue', 'Ronan the Accuser', 'Sera', 'She-Hulk',
-          'Shuri', 'Spider-Man', 'Super Skrull', 'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron',
+          'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide', 'Rogue', 'Ronan the Accuser', 'Sauron', 'Sentry', 'Sera', 'Shadow King', 'She-Hulk',
+          'Shuri', 'Silver Surfer', 'Spider-Man', 'Super Skrull', 'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron',
           'Valkyrie', 'Venom', 'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = ['DARKHAWK', 'DAZZLER', 'GHOST', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.',
-          'NEGASONIC TEENAGE WARHEAD', 'NIMROD', 'SAURON', 'SENTRY',
-          'SHADOW KING', 'SHANNA', 'SILVER SURFER', 'STATURE', 'ZABU']
+s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.',
+          'NEGASONIC TEENAGE WARHEAD', 'NIMROD', 'SHANNA', 'STATURE', 'ZABU']
 
 s5_set = ['GALACTUS', 'HOWARD THE DUCK', 'IRON LAD', 'JEFF', 'KANG', 'KITTY PRYDE', 'SNOWGUARD', 'STEGRON', 'THANOS']
 
