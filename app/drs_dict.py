@@ -20,6 +20,8 @@ s5_set = ['GALACTUS', 'HOWARD THE DUCK', 'IRON LAD', 'JEFF', 'KANG', 'KITTY PRYD
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
               "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE"]
 
+seasonal_s3_claims = ['Super Skrull', 'Sentry']
+
 bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY', 'NEBULA']
 
 # this is the order DrStrangePhD got the s3 cards
@@ -119,7 +121,7 @@ dr_dict = {
     4066: "SAURON",
     4102: "500 tokens",
     4126: "200 tokens",
-    4210: "HELICARRIER",
+    4210: "Helicarrier",
     4222: "500 tokens",
     4294: "600 tokens",
     4330: "KNULL",
@@ -176,7 +178,6 @@ dr_dict = {
 # removed from dr_dict:
 # 5158: "100 tokens???",
 # 5170: "Steampunk Yellowjacket??",
-
 # Not sure what happened during that promotion, but missing rewards from Packs 3 and 7 seemed to be replaced in Pack 9
 
 if __name__ == '__main__':
