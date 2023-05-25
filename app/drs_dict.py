@@ -19,7 +19,7 @@ s5_set = ['GALACTUS', 'HIGH EVOLUTIONARY', 'HOWARD THE DUCK', 'IRON LAD',
           'JEFF', 'KANG', 'KITTY PRYDE', 'SNOWGUARD', 'STEGRON', 'THANOS']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
-              "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE"]
+              "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY"]
 
 seasonal_s3_claims = ['Super Skrull', 'Sentry']
 
