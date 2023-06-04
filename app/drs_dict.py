@@ -180,6 +180,9 @@ dr_dict = {
     6538: "NEGASONIC",
     6550: "600 tokens",
     6610: "300 tokens",
+    6646: "500 tokens",
+    6670: "400 tokens",
+    6730: "400 tokens",
 }
 
 # removed from dr_dict:
