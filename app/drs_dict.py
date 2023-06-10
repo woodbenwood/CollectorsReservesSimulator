@@ -15,8 +15,8 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
 
 s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.', 'NEGASONIC', 'NIMROD', 'SHANNA', 'STATURE', 'ZABU']
 
-s5_set = ['GALACTUS', 'HIGH EVOLUTIONARY', 'HOWARD THE DUCK', 'IRON LAD',
-          'JEFF', 'KANG', 'KITTY PRYDE', 'LIVING TRIBUNAL', 'SNOWGUARD', 'STEGRON', 'THANOS']
+s5_set = ['GALACTUS', 'HIGH EVOLUTIONARY', 'HIT MONKEY', 'HOWARD THE DUCK', 'IRON LAD',
+          'JEFF', 'KANG', 'KITTY PRYDE', 'LIVING TRIBUNAL', 'NEBULA', 'SNOWGUARD', 'STEGRON', 'THANOS']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
               "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY"]
