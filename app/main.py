@@ -57,7 +57,7 @@ while start < CL + 1:
         # every 4 Reserves from 1006:
         if choice == "Dr":
             if start in dr_dict.keys() and dr_dict.values(start).isalpha():
-                # when this works, it will rule out the dict entries containing integers (ala "200 tokens")
+                # when this works, it will rule out the dict entries containing integers (e.g. "200 tokens")
                 memory = start
                 new_list.append(dr_dict[start])
                 # print to the list of Reserves the card opened there
