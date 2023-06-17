@@ -1,4 +1,4 @@
-dr_CL = 7100
+dr_CL = 7200
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Attuma',
           'Baron Mordo', 'Bast', 'Black Panther', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood',
@@ -21,7 +21,7 @@ s5_set = ['GALACTUS', 'HIGH EVOLUTIONARY', 'HIT MONKEY', 'HOWARD THE DUCK', 'IRO
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
               "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY"]
 
-seasonal_s3_claims = ['Super Skrull', 'Sentry']
+seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
 bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY', 'NEBULA', 'GHOST SPIDER']
 
