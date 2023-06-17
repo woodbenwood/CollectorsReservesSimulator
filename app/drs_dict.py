@@ -9,17 +9,18 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
           'Lockjaw', 'Luke Cage', 'M\'Baku', 'Magik', 'Magneto', 'Maria Hill', 'Maximus', 'Miles Morales',
           'Mister Negative', 'Mojo', 'Moon Knight', 'Mysterio', 'Mystique', 'Nick Fury', 'Omega Red', 'Orka', 'Patriot',
           'Polaris', 'Psylocke', 'Quake', 'Quinjet', 'Red Skull', 'Rescue', 'Rockslide', 'Rogue', 'Ronan the Accuser',
-          'Sauron', 'Sentry', 'Sera', 'Shadow King', 'She-Hulk', 'Shuri', 'Silver Surfer', 'Spider-Man', 'Super Skrull',
-          'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron', 'Valkyrie', 'Venom', 'Viper', 'Wasp',
-          'Wave', 'Wong', 'Yellowjacket', 'Zero']
+          'Sauron', 'Sentry', 'Sera', 'Shadow King', 'Shanna', 'She-Hulk', 'Shuri', 'Silver Surfer', 'Spider-Man',
+          'Super Skrull', 'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron', 'Valkyrie', 'Venom',
+          'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.', 'NEGASONIC', 'NIMROD', 'SHANNA', 'STATURE', 'ZABU']
+s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.', 'NEGASONIC',
+          'NIMROD', 'SNOWGUARD', 'STATURE', 'STEGRON', 'ZABU']
 
 s5_set = ['GALACTUS', 'HIGH EVOLUTIONARY', 'HIT MONKEY', 'HOWARD THE DUCK', 'IRON LAD',
-          'JEFF', 'KANG', 'KITTY PRYDE', 'LIVING TRIBUNAL', 'NEBULA', 'SNOWGUARD', 'STEGRON', 'THANOS']
+          'JEFF', 'KANG', 'KITTY PRYDE', 'LIVING TRIBUNAL', 'NEBULA', 'SILK', 'THANOS']
 
-token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil", "Rogue",
-              "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY"]
+token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil",
+              "Rogue", "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY"]
 
 seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
