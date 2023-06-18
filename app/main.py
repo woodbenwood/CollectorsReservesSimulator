@@ -110,8 +110,6 @@ else:
     print(f"CL {CL} is box {box_count} of pack {pack_count} in case {case_count}")
 
 
-
-
 if __name__ == '__main__':
     start = 1006
     # the collection level (CL1006) where reserves begin
