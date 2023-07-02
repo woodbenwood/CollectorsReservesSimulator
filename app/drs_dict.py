@@ -186,6 +186,7 @@ dr_dict = {
     6730: "400 tokens",
     7138: "SNOWGUARD",
     7390: "STEGRON",
+    7462: "THE LIVING TRIBUNAL",
 }
 
 # removed from dr_dict:
