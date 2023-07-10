@@ -16,7 +16,7 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
 s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'M.O.D.O.K.', 'NEGASONIC TEENAGE WARHEAD',
           'NIMROD', 'SNOWGUARD', 'SPIDER-HAM', 'SPIDER-MAN 2099',  'STATURE', 'STEGRON', 'ZABU']
 
-s5_set = ['GALACTUS', 'HIGH EVOLUTIONARY', 'HIT-MONKEY', 'HOWARD the DUCK', 'IRON LAD',
+s5_set = ['GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTIONARY', 'HIT-MONKEY', 'HOWARD the DUCK', 'IRON LAD',
           'JEFF the BABY LAND SHARK', 'KANG', 'KITTY PRYDE', 'THE LIVING TRIBUNAL', 'NEBULA', 'SILK', 'THANOS']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil",
@@ -26,7 +26,7 @@ seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
 compensation_reward = ['KITTY PRYDE']
 
-bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY', 'NEBULA', 'GHOST SPIDER']
+bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY', 'NEBULA', 'GHOST-SPIDER']
 
 # this is the order DrStrangePhD got the s3 cards
 
