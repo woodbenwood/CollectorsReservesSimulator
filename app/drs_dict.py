@@ -189,6 +189,7 @@ dr_dict = {
     7138: "SNOWGUARD",
     7390: "STEGRON",
     7462: "THE LIVING TRIBUNAL",
+    7690: "JEAN GREY {spotlights begin}",
 }
 
 # removed from dr_dict:
