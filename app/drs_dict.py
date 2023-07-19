@@ -190,6 +190,9 @@ dr_dict = {
     7390: "STEGRON",
     7462: "THE LIVING TRIBUNAL",
     7690: "JEAN GREY (spotlights begin)",
+    7810: "ECHO",
+    7930: "variant (rolled Galactus)",
+    8050: "variant Kang",
 }
 
 # removed from dr_dict:
