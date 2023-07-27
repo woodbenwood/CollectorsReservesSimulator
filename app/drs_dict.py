@@ -223,9 +223,12 @@ if __name__ == '__main__':
             # keeps track of which pack we're counting
             for _ in range(4):
                 # every 4 reserves from 1006:
-                if start in dr_dict.keys():
+                if start in dr_dict.keys() and ((start - 7690) % 120 == 0):
+                    new_list.append(f"*{dr_dict[start]}*")
+                    # this is to demarcate Spotlight Caches [introduced July 2023, 7690 was the first for Dr's acct]
+                elif start in dr_dict.keys():
                     new_list.append(dr_dict[start])
-                    # print to the list of Reserves the card opened there
+                    # add to the list of Reserves the card opened there
                 else:
                     new_list.append(start)
                     # OR add the no. representing the Reserve to the list
