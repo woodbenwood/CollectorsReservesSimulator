@@ -8,3 +8,5 @@ if __name__ == '__main__':
     print(7690 + 120)
     print((7810 - 7690) % 120)
     print(4 % 120)
+    print(-120 % 120)
+    # learnin' 'bout modulos!

@@ -191,7 +191,7 @@ dr_dict = {
     7138: "SNOWGUARD",
     7390: "STEGRON",
     7462: "THE LIVING TRIBUNAL",
-    7690: "JEAN GREY (spotlights begin)",
+    7690: "JEAN GREY",
     7810: "ECHO",
     7930: "Baby Nebula (rolled Galactus)",
     8050: "variant Kang",
@@ -223,9 +223,11 @@ if __name__ == '__main__':
             # keeps track of which pack we're counting
             for _ in range(4):
                 # every 4 reserves from 1006:
-                if start in dr_dict.keys() and ((start - 7690) % 120 == 0):
+                if start in dr_dict.keys() and start > 7689 and ((start - 7690) % 120 == 0):
+                    # clumsy 3-conditional statement could be arrived at with much simpler logic todo: do that!
                     new_list.append(f"*{dr_dict[start]}*")
-                    # this is to demarcate Spotlight Caches [introduced July 2023, 7690 was the first for Dr's acct]
+                    # add to the list the card/variant opened there, with *'s to demarcate Spotlight Caches (Reserves)
+                    # [Spotlight Caches were introduced July 2023. Cache 7690 was the first Spotlight for Dr's acct]
                 elif start in dr_dict.keys():
                     new_list.append(dr_dict[start])
                     # add to the list of Reserves the card opened there
@@ -239,6 +241,8 @@ if __name__ == '__main__':
                 pack_count = 1
                 # reset the pack count and start on the next case:
                 case_count += 1
+                if case_count == 15:
+                    print("* = Spotlight Caches (begin at Reserve 7690)")
                 print("\n", f'     --------- Case {case_count} ---------   ')
             print(f"pack {pack_count}: ", new_list)
         box_count = ((CL - new_list[0]) // 12) + 1
