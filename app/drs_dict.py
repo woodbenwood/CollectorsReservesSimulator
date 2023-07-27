@@ -231,6 +231,9 @@ if __name__ == '__main__':
                 elif start in dr_dict.keys():
                     new_list.append(dr_dict[start])
                     # add to the list of Reserves the card opened there
+                elif start > 7689 and ((start - 7690) % 120 == 0):
+                    new_list.append(f"*{start}*")
+                    # denotes future Spotlight Caches with bookending asterisks
                 else:
                     new_list.append(start)
                     # OR add the no. representing the Reserve to the list
