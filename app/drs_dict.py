@@ -1,4 +1,4 @@
-dr_CL = 8900
+dr_CL = 10000
 
 s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Coulson', 'Arnim Zola', 'Attuma',
           'Baron Mordo', 'Bast', 'Black Panther', 'Beast', 'Black Bolt', 'Black Cat', 'Black Widow', 'Brood',
@@ -22,7 +22,7 @@ s5_set = ['DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTIONARY', 'HIT
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil",
               "Rogue", "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY", "SPIDER-HAM",
-              "JEFF the BABY LAND SHARK", "LEGION", ]
+              "JEFF the BABY LAND SHARK", "LEGION"]
 
 seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
