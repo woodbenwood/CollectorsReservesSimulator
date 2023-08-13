@@ -28,7 +28,8 @@ seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
 compensation_reward = ['KITTY PRYDE']
 
-bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY', 'NEBULA', 'GHOST-SPIDER', 'PHOENIX FORCE']
+bundle_buys = ['SILVER SURFER', 'ZABU', 'M.O.D.O.K.', 'NIMROD', 'HIT-MONKEY', 'NEBULA', 'GHOST-SPIDER', 'PHOENIX FORCE',
+               'DAKEN']
 
 # this is the order DrStrangePhD got the s3 cards
 
