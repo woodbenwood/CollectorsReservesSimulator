@@ -17,8 +17,8 @@ s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'MIRAGE', 'M.O.D.O.K.', 'NEGASONIC
           'NIMROD', 'SNOWGUARD', 'SPIDER-HAM', 'SPIDER-MAN 2099', 'STATURE', 'STEGRON', 'ZABU']
 
 s5_set = ['DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTIONARY', 'HIT-MONKEY', 'HOWARD the DUCK', 'IRON LAD',
-          'JEAN GREY', 'JEFF the BABY LAND SHARK', 'KANG', 'KITTY PRYDE', 'THE LIVING TRIBUNAL', 'NEBULA', 'SILK',
-          'THANOS']
+          'JEAN GREY', 'JEFF the BABY LAND SHARK', 'KANG', 'KITTY PRYDE', 'LADY DEATHSTRIKE', 'THE LIVING TRIBUNAL',
+          'NEBULA', 'SILK', 'THANOS']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil",
               "Rogue", "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY", "SPIDER-HAM",
