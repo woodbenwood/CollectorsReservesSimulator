@@ -13,7 +13,7 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
           'Super Skrull', 'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron', 'Valkyrie', 'Venom',
           'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = ['DARKHAWK', 'KNULL', 'MASTER MOLD', 'MIRAGE', 'M.O.D.O.K.', 'NEGASONIC TEENAGE WARHEAD',
+s4_set = ['DARKHAWK', 'KNULL', 'LEGION', 'MASTER MOLD', 'MIRAGE', 'M.O.D.O.K.', 'NEGASONIC TEENAGE WARHEAD',
           'NIMROD', 'SNOWGUARD', 'SPIDER-HAM', 'SPIDER-MAN 2099', 'STATURE', 'STEGRON', 'ZABU']
 
 s5_set = ['DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTIONARY', 'HIT-MONKEY', 'HOWARD the DUCK', 'IRON LAD',
@@ -205,60 +205,60 @@ dr_dict = {
 # 5170: "Steampunk Yellowjacket??",
 # Not sure what happened during that promotion, but missing rewards from Packs 3 and 7 seemed to be replaced in Pack 9
 
-if __name__ == '__main__':
-    start = 1006
-    # the collection level (CL1006) where reserves begin
-    CL = input("Enter your Collection Level:")
-    if CL == "Dr":
-        CL = dr_CL
-        box_count = 0
-        pack_count = 1
-        case_count = 0
-        # start the counts at 0. A case is 10 "packs" of 4 "boxes" each
-        # (a "box" is 12 CL's incl Boosters, Credits, and a Reserve)
-        new_list = []
-        # a redundancy to appease the PyCharm linter
-        while start < CL + 1:
-            # runs until it reaches your CL, then stops
-            new_list = []
-            # instantiate new list of boxes per loop
-            pack_count += 1
-            # keeps track of which pack we're counting
-            for _ in range(4):
-                # every 4 reserves from 1006:
-                if start in dr_dict.keys() and start > 7689 and ((start - 7690) % 120 == 0):
-                    # clumsy 3-conditional statement could be arrived at with much simpler logic todo: do that!
-                    new_list.append(f"*{dr_dict[start]}*")
-                    # add to the list the card/variant opened there, with *'s to demarcate Spotlight Caches (Reserves)
-                    # [Spotlight Caches were introduced July 2023. Cache 7690 was the first Spotlight for Dr's acct]
-                elif start in dr_dict.keys():
-                    new_list.append(dr_dict[start])
-                    # add to the list of Reserves the card opened there
-                elif start > 7689 and ((start - 7690) % 120 == 0):
-                    new_list.append(f"*{start}*")
-                    # denotes future Spotlight Caches with bookending asterisks
-                else:
-                    new_list.append(start)
-                    # OR add the no. representing the Reserve to the list
-                start += 12
-                # a reserve (box) occurs every 12 CL
-            if (start - 1054) % 480 == 0:
-                # 1054 is very first CL of the second "pack" in case 1. [It makes the math work.]
-                pack_count = 1
-                # reset the pack count and start on the next case:
-                case_count += 1
-                if case_count == 15:
-                    print("* = Spotlight Caches (begin at Reserve 7690)")
-                print("\n", f'     --------- Case {case_count} ---------   ')
-            print(f"pack {pack_count}: ", new_list)
-        box_count = ((CL - new_list[0]) // 12) + 1
-        # your CL minus the no. of the first reserve, with math to arrive at a 1-4
-        print(f"\nDrStrangePhD's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
-        print(f"\nBought with tokens: {token_buys} \n"
-              f"Bought with bundles: {bundle_buys}")
-
 # if __name__ == '__main__':
-#     count = 0
-#     for i in s5_set:
-#         count += 1
-#     print(count)
+#     start = 1006
+#     # the collection level (CL1006) where reserves begin
+#     CL = input("Enter your Collection Level:")
+#     if CL == "Dr":
+#         CL = dr_CL
+#         box_count = 0
+#         pack_count = 1
+#         case_count = 0
+#         # start the counts at 0. A case is 10 "packs" of 4 "boxes" each
+#         # (a "box" is 12 CL's incl Boosters, Credits, and a Reserve)
+#         new_list = []
+#         # a redundancy to appease the PyCharm linter
+#         while start < CL + 1:
+#             # runs until it reaches your CL, then stops
+#             new_list = []
+#             # instantiate new list of boxes per loop
+#             pack_count += 1
+#             # keeps track of which pack we're counting
+#             for _ in range(4):
+#                 # every 4 reserves from 1006:
+#                 if start in dr_dict.keys() and start > 7689 and ((start - 7690) % 120 == 0):
+#                     # clumsy 3-conditional statement could be arrived at with much simpler logic todo: do that!
+#                     new_list.append(f"*{dr_dict[start]}*")
+#                     # add to the list the card/variant opened there, with *'s to demarcate Spotlight Caches (Reserves)
+#                     # [Spotlight Caches were introduced July 2023. Cache 7690 was the first Spotlight for Dr's acct]
+#                 elif start in dr_dict.keys():
+#                     new_list.append(dr_dict[start])
+#                     # add to the list of Reserves the card opened there
+#                 elif start > 7689 and ((start - 7690) % 120 == 0):
+#                     new_list.append(f"*{start}*")
+#                     # denotes future Spotlight Caches with bookending asterisks
+#                 else:
+#                     new_list.append(start)
+#                     # OR add the no. representing the Reserve to the list
+#                 start += 12
+#                 # a reserve (box) occurs every 12 CL
+#             if (start - 1054) % 480 == 0:
+#                 # 1054 is very first CL of the second "pack" in case 1. [It makes the math work.]
+#                 pack_count = 1
+#                 # reset the pack count and start on the next case:
+#                 case_count += 1
+#                 if case_count == 15:
+#                     print("* = Spotlight Caches (begin at Reserve 7690)")
+#                 print("\n", f'     --------- Case {case_count} ---------   ')
+#             print(f"pack {pack_count}: ", new_list)
+#         box_count = ((CL - new_list[0]) // 12) + 1
+#         # your CL minus the no. of the first reserve, with math to arrive at a 1-4
+#         print(f"\nDrStrangePhD's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
+#         print(f"\nBought with tokens: {token_buys} \n"
+#               f"Bought with bundles: {bundle_buys}")
+
+if __name__ == '__main__':
+    count = 0
+    for i in s4_set:
+        count += 1
+    print(count)
