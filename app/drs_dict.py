@@ -196,6 +196,7 @@ dr_dict = {
     7810: "ECHO",
     7930: "Baby Nebula (rolled Galactus)",
     8050: "variant Kang",
+    8170: "IRON LAD",
 }
 
 # removed from dr_dict:
