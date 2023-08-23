@@ -198,6 +198,7 @@ dr_dict = {
     8050: "variant Kang",
     8170: "IRON LAD",
     8290: "LADY DEATHSTRIKE",
+    8410: "1000 tokens",
     8530: "Silk",
     8650: "Chibi Nebula",
     8770: "X-23",
