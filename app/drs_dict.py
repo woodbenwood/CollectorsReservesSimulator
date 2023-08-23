@@ -194,10 +194,12 @@ dr_dict = {
     7462: "THE LIVING TRIBUNAL",
     7690: "JEAN GREY",
     7810: "ECHO",
-    7930: "Baby Nebula (rolled Galactus)",
+    7930: "Baby Nebula",
     8050: "variant Kang",
     8170: "IRON LAD",
     8290: "LADY DEATHSTRIKE",
+    8530: "Silk",
+    8650: "Chibi Nebula",
     8770: "X-23",
 }
 
