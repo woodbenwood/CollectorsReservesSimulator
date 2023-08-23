@@ -198,6 +198,7 @@ dr_dict = {
     8050: "variant Kang",
     8170: "IRON LAD",
     8290: "LADY DEATHSTRIKE",
+    8770: "X-23",
 }
 
 # removed from dr_dict:
