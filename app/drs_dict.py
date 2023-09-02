@@ -202,7 +202,7 @@ dr_dict = {
     8530: "Silk",
     8650: "Chibi Nebula",
     8770: "X-23",
-
+    8890: "SILVER SAMURAI",
 }
 
 # removed from dr_dict:
