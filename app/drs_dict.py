@@ -18,11 +18,11 @@ s4_set = ['DARKHAWK', 'KNULL', 'LEGION', 'MASTER MOLD', 'MIRAGE', 'M.O.D.O.K.', 
 
 s5_set = ['DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTIONARY', 'HIT-MONKEY', 'HOWARD the DUCK', 'IRON LAD',
           'JEAN GREY', 'JEFF the BABY LAND SHARK', 'KANG', 'KITTY PRYDE', 'LADY DEATHSTRIKE', 'THE LIVING TRIBUNAL',
-          'NEBULA', 'SILK', 'THANOS', 'X-23']
+          'LOKI', 'NEBULA', 'SILK', 'THANOS', 'X-23']
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil",
               "Rogue", "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY", "SPIDER-HAM",
-              "JEFF the BABY LAND SHARK", "LEGION", "SPIDER-MAN 2099",]
+              "JEFF the BABY LAND SHARK", "LEGION", "MIRAGE", "SPIDER-MAN 2099"]
 
 seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
