@@ -253,11 +253,11 @@ if __name__ == '__main__':
                 # reset the pack count and start on the next case:
                 case_count += 1
                 if case_count == 15:
-                    print("* = Spotlight Caches (begin at Reserve 7690)")
+                    print("* = Spotlight Caches (began at Reserve 7690)")
                 print("\n", f'     --------- Case {case_count} ---------   ')
             print(f"pack {pack_count}: ", new_list)
         box_count = ((CL - new_list[0]) // 12) + 1
         # your CL minus the no. of the first reserve, with math to arrive at a 1-4
-        print(f"\nDrStrangePhD's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
+        print(f"\nThe Collection is on box {box_count} of pack {pack_count} in case {case_count}")
         print(f"\nBought with tokens: {token_buys} \n"
               f"Bought with bundles: {bundle_buys}")
