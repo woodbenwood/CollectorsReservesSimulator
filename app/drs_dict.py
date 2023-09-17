@@ -261,9 +261,3 @@ if __name__ == '__main__':
         print(f"\nDrStrangePhD's Collection is on box {box_count} of pack {pack_count} in case {case_count}")
         print(f"\nBought with tokens: {token_buys} \n"
               f"Bought with bundles: {bundle_buys}")
-#
-# if __name__ == '__main__':
-#     count = 0
-#     for i in s5_set:
-#         count += 1
-#     print(count)
