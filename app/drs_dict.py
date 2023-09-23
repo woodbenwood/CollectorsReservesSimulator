@@ -14,7 +14,7 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
           'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
 s4_set = ['DARKHAWK', 'KNULL', 'LEGION', 'MASTER MOLD', 'MIRAGE', 'M.O.D.O.K.', 'NEGASONIC TEENAGE WARHEAD',
-          'NIMROD', 'SNOWGUARD', 'SPIDER-HAM', 'SPIDER-MAN 2099', 'STATURE', 'STEGRON', 'ZABU']
+          'NIMROD', 'RAVONNA RENSLAYER', 'SNOWGUARD', 'SPIDER-HAM', 'SPIDER-MAN 2099', 'STATURE', 'STEGRON', 'ZABU']
 
 s5_set = ['ALIOTH', 'DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTIONARY', 'HIT-MONKEY', 'HOWARD the DUCK',
           'IRON LAD', 'JEAN GREY', 'JEFF the BABY LAND SHARK', 'KANG', 'KITTY PRYDE', 'LADY DEATHSTRIKE',
