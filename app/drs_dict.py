@@ -13,8 +13,9 @@ s3_set = ['Absorbing Man', 'Adam Warlock', 'Aero', 'Agatha Harkness', 'Agent Cou
           'Super Skrull', 'Taskmaster', 'The Hood', 'Thor', 'Titania', 'Typhoid Mary', 'Ultron', 'Valkyrie', 'Venom',
           'Viper', 'Wasp', 'Wave', 'Wong', 'Yellowjacket', 'Zero']
 
-s4_set = ['DARKHAWK', 'KNULL', 'LEGION', 'MASTER MOLD', 'MIRAGE', 'M.O.D.O.K.', 'NEGASONIC TEENAGE WARHEAD',
-          'NIMROD', 'RAVONNA RENSLAYER', 'SNOWGUARD', 'SPIDER-HAM', 'SPIDER-MAN 2099', 'STATURE', 'STEGRON', 'ZABU']
+s4_set = ['DARKHAWK', 'KNULL', 'LEGION', 'MASTER MOLD', 'MIRAGE', 'MOBIUS M. MOBIUS', 'M.O.D.O.K.',
+          'NEGASONIC TEENAGE WARHEAD', 'NIMROD', 'RAVONNA RENSLAYER', 'SNOWGUARD', 'SPIDER-HAM', 'SPIDER-MAN 2099',
+          'STATURE', 'STEGRON', 'ZABU']
 
 s5_set = ['ALIOTH', 'DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTIONARY', 'HIT-MONKEY', 'HOWARD the DUCK',
           'IRON LAD', 'JEAN GREY', 'JEFF the BABY LAND SHARK', 'KANG', 'KITTY PRYDE', 'LADY DEATHSTRIKE',
@@ -22,7 +23,7 @@ s5_set = ['ALIOTH', 'DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTION
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil",
               "Rogue", "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY", "SPIDER-HAM",
-              "JEFF the BABY LAND SHARK", "LEGION", "MIRAGE", "SPIDER-MAN 2099", "HOWARD the DUCK"]
+              "JEFF the BABY LAND SHARK", "LEGION", "MIRAGE", "SPIDER-MAN 2099", "HOWARD the DUCK", "MOBIUS M. MOBIUS"]
 
 seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
