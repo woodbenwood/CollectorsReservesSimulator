@@ -23,7 +23,7 @@ s5_set = ['ALIOTH', 'DAKEN', 'ECHO', 'GALACTUS', 'GHOST-SPIDER', 'HIGH EVOLUTION
 
 token_buys = ["Miles Morales", "Cerebro", "Jane Foster", "Mister Negative", "Wave", "Psylocke", "Daredevil",
               "Rogue", "SHURI", "GALACTUS", "THANOS", "KANG", "VALKYRIE", "HIGH EVOLUTIONARY", "SPIDER-HAM",
-              "JEFF the BABY LAND SHARK", "LEGION", "MIRAGE", "SPIDER-MAN 2099", "HOWARD the DUCK"]
+              "JEFF the BABY LAND SHARK", "LEGION", "MIRAGE", "SPIDER-MAN 2099", "HOWARD the DUCK", "RAVONNA RENSLAYER"]
 
 seasonal_s3_claims = ['Super Skrull', 'Sentry', 'Shanna']
 
@@ -209,7 +209,6 @@ dr_archive = {
     6646: "500 tokens",
     6670: "400 tokens",
     6730: "400 tokens",
-
 }
 
 # removed from dr_dict:
