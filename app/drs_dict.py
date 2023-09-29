@@ -139,7 +139,7 @@ dr_dict = {
     8650: "Chibi Nebula",
     8770: "X-23",
     8890: "SILVER SAMURAI",
-    9010: 1000 tokens,
+    9010: "1000 tokens",
     9130: "MOBIUS M. MOBIUS",
 }
 
